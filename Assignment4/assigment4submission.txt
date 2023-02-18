@@ -1,0 +1,4 @@
+
+Python Notebook: https://github.com/rsadaphule/caies/blob/master/Assignment4/Sadaphul-Assign4.ipynb
+Docker Repo link: https://hub.docker.com/repository/docker/rsadaphule/705.603/general
+Research proposal: https://github.com/rsadaphule/caies/blob/master/Assignment4/Research%20Proposal.pdf
