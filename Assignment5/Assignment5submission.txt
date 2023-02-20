@@ -1,0 +1,4 @@
+
+Assignment 5 notebook: https://github.com/rsadaphule/caies/blob/master/Assignment5/Sadaphule_Assign5.ipynb
+
+Data Failures Excel : https://github.com/rsadaphule/caies/blob/master/Assignment5/DataFailure.xlsx
