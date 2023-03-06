@@ -1,0 +1,2 @@
+mongodb notebook: https://github.com/rsadaphule/caies/blob/master/Assignment7/mongodb_Basics.ipynb
+neo4j notebook: https://github.com/rsadaphule/caies/blob/master/Assignment7/neo_Basics.ipynb
