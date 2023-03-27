@@ -1,0 +1,28 @@
+Notes:
+AWS Sagemaker is cloud hosted solution where one can author machine learning code to train, test , deploy and evaluate the model. In this assignment, I created my own sagemake studio and a new Jupyrer notebook. I used bank training dataset which consists of bank customers profile data . The goal was to predict how likely a customer would create a new Certificate Deposit.
+
+
+I used XGboost algorithm t training the a supervised model. XGBoost is an ensemble of weak learners and it uses  gradient boosted trees to combine these weak learners in a smart way to create a robust prediction.
+
+
+The notebook code first  downloads bank data and then splits into training and test data. It uses docker image of XGBoost container for later use in the deployment.
+The code sets following hyeprparametrs of XGBoost algorithm
+max_depth=5
+eta=0.2
+gamma=4
+min_child_weight=6
+subsample=0.8
+silent=0
+objective='binary:logistic'
+num_round=100 
+
+
+The code then uploads raining data to s3 and trains a XGBoost model. It takes about 3 minutes to trains the mcdel 
+It then deploys model to ml.m4.xlarge instance and evaluates model performance
+Overall Classification Rate: 89.5%
+
+
+Predicted      No Purchase    Purchase
+Observed
+No Purchase    90% (10769)    37% (167)
+Purchase        10% (1133)     63% (288)
