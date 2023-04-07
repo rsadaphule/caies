@@ -1,7 +1,12 @@
+# This file contain blackjack training code that will be used RLEstimator 
+#
+
+
+import matplotlib.pyplot as plt
+plt.switch_backend('agg')
 import argparse
 import os
 import numpy as np
-import matplotlib.pyplot as plt
 import json
 import gym
 import random
@@ -276,6 +281,8 @@ class ReplayBuffer:
             
 
 from collections import deque
+
+agent = Agent(state_size=3, action_size=2, seed=0)
 
 def dqn(n_episodes=2000, eps_start=0.99, eps_end=0.02, eps_decay=0.995):
     """
