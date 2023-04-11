@@ -1,0 +1,20 @@
+Here are links for Assignment 9 submission along with description
+1) AWS Sagemaker Tutorial
+Sagemaker Tutorial run on sagemaker: https://github.com/rsadaphule/caies/blob/master/Assignment9/Sagemaker-Tutorial.ipynb
+
+
+2) Local and AWS implementation of Blackjack RL.
+
+a. Local Blackjack:
+   File : https://github.com/rsadaphule/caies/blob/master/Assignment9/Blackjack_latest_local.ipynb
+   This file contains local implementation of Blackjack Reinforcement Learning
+
+b. AWS Sagemaker BlackJack
+   File: https://github.com/rsadaphule/caies/blob/master/Assignment9/Blackjack-RL-aws-sagemaker%20(1).ipynb
+   This file contains mdeifiled Blackjack code to run on aws sagemaker. The code has been modified to save and load checkpoint.pth fro, and to AWS S3 storage. This required updating aws S3 policy for aws sagemaker rile. The policy is available at https://github.com/rsadaphule/caies/blob/master/Assignment9/s3editaccessPolicy.pdf
+
+
+
+
+
+
