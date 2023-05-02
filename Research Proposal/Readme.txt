@@ -5,6 +5,8 @@
 3. DockerHub Repo: https://hub.docker.com/layers/rsadaphule/705.603/assignment12/images/sha256-2b823afd7f853b79c75bc7d675a61d275ca841909effa0b826883dda9827ba23?context=repo
    Download the image and run it uding following command
     docker run -p 8501:8501 rsadaph1ule/705.603:assignment12
+  
+   To package the docker run this command docker build -t "rsadaphule/705.603:assignment12"  . 
 4. Demo video of end to end running app: https://youtu.be/E_l9lMYsEm0
 
 5. Code organization:
